@@ -1,13 +1,13 @@
 :root {
-  --accent-color: #FF0070;
-  --background-color: #000028;;
-  --text-color: #F1B2CE;
-  --focus-text: #DB00FF;
-  --main-font: "IBM Plex Mono", Arial, sans-serif;
-  --regular-font-weight: 400;
-  --bold-font-weight: 700;
-  --main-font-size: 18px;
-  --main-line-height: 23.4px;
-  --main-letter-spacing: 0;
+--accent-color: #FF0070;
+--background-color: #000028;
+--text-color: #F1B2CE;
+--focus-text: #DB00FF;
+--main-font: "IBM Plex Mono", Arial, sans-serif;
+--regular-font-weight: 400;
+--bold-font-weight: 700;
+--main-font-size: 18px;
+--main-line-height: 23.4px;
+--main-letter-spacing: 0;
 }
  
