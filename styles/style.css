@@ -274,7 +274,7 @@
     border-left: 1px solid var(--accent-color);
 }
 
-@media (width > 768px) {
+@media (width >= 768px) {
     .page {
         max-width: 768px;
         width: 100%;
@@ -291,8 +291,7 @@
     }
 
     .header {
-        max-height: 100vh;
-        min-height: 1024px;
+        min-height: 100vh;
         gap: 162px;
     }
 
@@ -440,9 +439,9 @@
     .footer_focus {
         margin-top: 60px;
         width: 768px;
-        height: 1024px;
+        min-height: 100vh;
         box-shadow: 0 -60px 0 var(--background-color);
-        background-color: (--background-color);
+        background-color: var(--background-color);
     }
 
     .footer_decorated_zone::before {
@@ -460,7 +459,7 @@
     }
 }
 
-@media (width > 1024px) {
+@media (width >= 1024px) {
     .page {
         max-width: 1024px;
         width: 100%;
@@ -479,8 +478,7 @@
     }
 
     .header {
-        max-height: 100vh;
-        min-height: 768px;
+        min-height: 100vh;
         gap: 114px;
         width: 1024px;
     }
@@ -597,9 +595,9 @@
     .footer_focus {
         margin-top: 82px;
         width: 1024px;
-        height: 768px;
+        min-height: 100vh;
         box-shadow: 0 -37px 0 var(--background-color);
-        background-color: (--background-color);
+        background-color: var(--background-color);
     }
 
     .focus_text {
