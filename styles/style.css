@@ -230,6 +230,11 @@
     margin-top: 50px;
 }
 
+.images {
+    display: grid;
+    gap: 10px;
+}
+
 .footer_focus {
     width: 375px;
     min-height: 100vh;
@@ -274,7 +279,7 @@
     border-left: 1px solid var(--accent-color);
 }
 
-@media (width >= 768px) {
+@media (width > 768px) {
     .page {
         max-width: 768px;
         width: 100%;
@@ -307,7 +312,7 @@
 
     .header_no-focus {
         margin: 0 191.16px 0 0;
-        font-size: 116px; /*clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) не подходит под размеры макета*/
+        font-size: 116px; 
         width: 576.84px;
         height: 99px;
         letter-spacing: 2px;
@@ -459,7 +464,7 @@
     }
 }
 
-@media (width >= 1024px) {
+@media (width > 1024px) {
     .page {
         max-width: 1024px;
         width: 100%;
