@@ -16,6 +16,7 @@
     }
 }
 
+
 .theme-light .header_rec {
     display: none;
 }
@@ -31,4 +32,9 @@
     .theme-light .header_rec::after {
         display: none;
     }
+
+    .theme-light .header__theme-menu-button_active::after {
+    border: 1px solid var(--text-color);
 }
+}
+

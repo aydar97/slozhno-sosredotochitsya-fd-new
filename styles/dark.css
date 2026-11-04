@@ -5,6 +5,7 @@
     --text-color: #f1b2ce;
     --focus-text: #db00ff;
     --title-text-color: #000028;
+    --outline-color: #FF007066;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,5 +16,6 @@
         --text-color: #f1b2ce;
         --focus-text: #db00ff;
         --title-text-color: #000028;
+        --outline-color: #FF007066;
     }
 }
